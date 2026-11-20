@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="按教材小节直达 B 站对应分集。在线体验同济七版高数、数据结构与历史的配课计划。">
+  <meta property="og:title" content="教材配课助手 · 按小节找 B 站网课">
+  <meta property="og:description" content="同济七版高数第一章的 10 个小节，逐节直达对应网课。">
+  <meta property="og:image" content="https://yanzirui666.github.io/textbook-course-matcher/social-preview.png">
+  <title>教材配课助手｜在线体验</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1a332f;
+      --muted: #4f655c;
+      --paper: #f7f7ef;
+      --rule: #d7e0d5;
+      --wash: #e4eee3;
+      --accent: #355f4f;
+      --serif: "Songti SC", "Noto Serif CJK SC", "STSong", serif;
+      --sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.65 var(--sans); }
+    a { color: #21584a; text-underline-offset: .22em; }
+    button, select { font: inherit; }
+    :focus-visible { outline: 3px solid #b34531; outline-offset: 4px; }
+    .wrap { width: min(1120px, calc(100% - 64px)); margin-inline: auto; }
+    .bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 73px; }
+    .brand { display: inline-flex; gap: .7rem; align-items: center; text-decoration: none; font-weight: 750; color: var(--ink); }
+    .mark { display: grid; place-items: center; background: var(--ink); color: var(--paper); width: 33px; height: 33px; border-radius: 6px; font: bold 19px var(--serif); }
+    .bar nav { display: flex; gap: 1.3rem; font-size: .95rem; }
+    .bar nav a { text-decoration: none; }
+    .bar nav a:hover { text-decoration: underline; }
+    .hero { background: #18352f; color: #f9f8ee; border-block: 1px solid #102922; }
+    .hero .wrap { display: grid; grid-template-columns: 1.03fr .97fr; gap: 64px; align-items: center; padding: 66px 0; }
+    .eyebrow { margin: 0 0 .7rem; color: #bfd3bd; font-size: .93rem; font-weight: 700; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2 { font-family: var(--serif); font-weight: 800; line-height: 1.15; }
+    h1 { font-size: clamp(36px, 4.6vw, 55px); letter-spacing: -.045em; margin-bottom: 1.25rem; }
+    h1 span { color: #d5e6bc; }
+    .hero p:not(.eyebrow) { color: #e0eade; max-width: 30em; margin-bottom: 1.5rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: .7rem; }
+    .action { display: inline-flex; align-items: center; justify-content: center; text-align: center; min-height: 46px; padding: .5rem .95rem; border: 1px solid #b7ccbb; border-radius: 7px; text-decoration: none; font-weight: 700; }
+    .primary { background: #d5e6bc; border-color: #d5e6bc; color: #16382f; }
+    .primary:hover { background: #f3f7dd; }
+    .hero .ghost { color: #f4f7e9; }
+    .hero .ghost:hover { background: #2a4940; }
+    .sample-card { background: #fcfbf0; border-radius: 14px; color: var(--ink); padding: 24px; box-shadow: 9px 9px 0 #345549; }
+    .row-note { color: var(--muted); font-size: .89rem; font-weight: 700; margin-bottom: .3rem; }
+    .sample-card strong { display: block; line-height: 1.45; font-size: clamp(16px, 2vw, 24px); }
+    .example-step { margin: 1rem 0; height: 1px; background: var(--rule); }
+    .sample-card a { display: inline-block; margin-top: .35rem; font-weight: 700; }
+    .workspace { padding: 58px 0 64px; scroll-margin: 18px; }
+    .lead { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 14px 30px; margin-bottom: 1.35rem; }
+    h2 { font-size: clamp(30px, 4vw, 48px); margin: 0 0 .45rem; }
+    .lead p { margin: 0; color: var(--muted); }
+    .sample-form { display: flex; align-items: end; flex-wrap: wrap; gap: .7rem; }
+    .sample-form label { display: grid; gap: .18rem; color: var(--muted); font-size: .9rem; font-weight: 700; }
+    .sample-form select, .sample-form button { min-height: 44px; border: 1px solid #96ab9e; border-radius: 7px; padding: .45rem .75rem; }
+    .sample-form select { color: var(--ink); background: #fffef8; }
+    .sample-form button { cursor: pointer; color: #fffef8; background: var(--accent); border-color: var(--accent); font-weight: 700; }
+    .sample-form button:hover { background: #244938; }
+    .panel { border: 1px solid var(--rule); border-radius: 12px; overflow: hidden; background: #fffef9; }
+    .cap { margin: 0; padding: .8rem 1.05rem; font-size: 1rem; border-bottom: 1px solid var(--rule); }
+    details { font-size: .9rem; }
+    details summary { cursor: pointer; color: var(--accent); }
+    #outline-panel { padding: .75rem 1.05rem; border-bottom: 1px solid var(--rule); }
+    #outline { white-space: pre-wrap; overflow-wrap: anywhere; margin-bottom: 0; font: .9rem/1.7 var(--sans); }
+    .plan-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .45rem 1rem; padding: .75rem 1.05rem; }
+    .plan-head p { margin: 0; color: var(--muted); }
+    #sample-csv { font-weight: 700; }
+    table { width: 100%; border-collapse: collapse; text-align: left; table-layout: fixed; }
+    thead { background: var(--wash); }
+    th, td { text-align: left; padding: .65rem 1rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+    tbody tr:last-child td, tbody tr:last-child th { border-bottom: 0; }
+    tbody th { font-weight: 700; }
+    th:first-child { width: 40%; }
+    td { overflow-wrap: anywhere; }
+    .lesson { font-weight: 700; }
+    .lesson-meta { display: block; color: var(--muted); font-size: .87rem; }
+    .part { white-space: nowrap; color: #244e40; background: #e2ecdc; border-radius: 4px; padding: .08rem .42rem; margin-right: .35rem; font-size: .82rem; }
+    .more { margin-top: .4rem; }
+    .more ul { margin-block: .4rem 0; padding-inline-start: 1.2rem; }
+    .error { padding: 1rem; }
+    .notes { margin-top: 1rem; color: var(--muted); font-size: .9rem; }
+    footer { padding: 20px 0 40px; border-top: 1px solid var(--rule); }
+    footer .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .45rem 1rem; color: var(--muted); }
+    @media (max-width: 800px) {
+      .wrap { width: calc(100% - 36px); }
+      .hero .wrap { grid-template-columns: 1fr; gap: 30px; padding: 40px 0 46px; }
+      .workspace { padding: 40px 0 48px; }
+    }
+    @media (max-width: 500px) {
+      .bar { min-height: 58px; }
+      .bar nav { gap: .8rem; }
+      .bar nav a:first-child { display: none; }
+      .sample-card { padding: 16px; }
+      th, td { padding: .63rem .64rem; font-size: .9rem; }
+      th:first-child { width: 39%; }
+    }
+  </style>
+</head>
+<body id="top">
+  <header class="wrap bar">
+    <a href="#top" class="brand"><span class="mark" aria-hidden="true">课</span> 教材配课助手</a>
+    <nav aria-label="项目">
+      <a href="#examples">在线示例</a>
+      <a href="https://github.com/yanzirui666/textbook-course-matcher">GitHub</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="main-title">
+      <div class="wrap">
+        <div>
+          <p class="eyebrow">教材配课助手 · 在线体验</p>
+          <h1 id="main-title">高数学到哪一节，<br><span>就跳到对应那一集。</span></h1>
+          <p>用同济七版《高等数学》第一章试一试。按教材顺序查看 10 个小节，点开对应网课，或下载整章计划。</p>
+          <div class="actions">
+            <a class="primary action" href="#examples">试用示例</a>
+            <a class="ghost action" href="functions-and-limits.csv" download>下载高数 CSV</a>
+          </div>
+        </div>
+        <article class="sample-card" aria-label="教材小节和视频分集的对照示例">
+          <div class="row-note">教材小节</div>
+          <strong id="featured-section">同济七版 · 函数与极限</strong>
+          <div class="example-step"></div>
+          <div class="row-note">对应网课</div>
+          <strong id="featured-video">查看下方的示例计划</strong>
+          <a id="featured-link" href="#examples">查看计划</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap workspace" id="examples" aria-labelledby="examples-title">
+      <div class="lead">
+        <div>
+          <h2 id="examples-title">示例学习计划</h2>
+          <p>选择一份内置目录，查看它与 B 站课程的对应关系。</p>
+        </div>
+        <form class="sample-form" id="sample-form">
+          <label>选择样例 <select required id="sample" disabled></select></label>
+          <button type="submit" id="generate" disabled>生成示例计划</button>
+        </form>
+      </div>
+      <section class="panel" aria-labelledby="book-title">
+        <h3 class="cap" id="book-title">正在载入样例</h3>
+        <details id="outline-panel">
+          <summary>查看教材原目录</summary>
+          <pre id="outline"></pre>
+        </details>
+        <div class="plan-head">
+          <p id="result-count" role="status"></p>
+          <a href="functions-and-limits.csv" download id="sample-csv">下载计划 CSV</a>
+        </div>
+        <table id="plan-table" hidden>
+          <thead><tr><th scope="col">教材小节</th><th scope="col">首选网课</th></tr></thead>
+          <tbody id="plan"></tbody>
+        </table>
+        <noscript><p class="error">浏览器禁用了 JavaScript。可以下载上方的高数 CSV 查看完整计划。</p></noscript>
+      </section>
+      <p class="notes">体验页使用已核对的内置样例。可在 <a href="https://github.com/yanzirui666/textbook-course-matcher#本地运行">本地版</a> 上传 PDF 或粘贴自己的目录。</p>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <span>教材配课助手 · MIT 开源</span>
+      <a href="https://github.com/yanzirui666/textbook-course-matcher/issues/new?title=%E6%95%99%E6%9D%90%E9%85%8D%E8%AF%BE%E5%8F%8D%E9%A6%88">报告不匹配或提议适配教材</a>
+    </div>
+  </footer>
+  <script>
+    const element = (id) => document.getElementById(id);
+    let samples = [];
+    let csvUrl;
+
+    function appendText(parent, tag, value, className) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      node.textContent = value;
+      parent.append(node);
+      return node;
+    }
+
+    function externalLink(parent, url, title) {
+      const link = appendText(parent, "a", title, "lesson");
+      link.href = url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+    }
+
+    function video(parent, data) {
+      if (data.part) appendText(parent, "span", "第 " + data.part + " 集", "part");
+      externalLink(parent, data.url, data.title);
+      if (data.source) appendText(parent, "small", data.source, "lesson-meta");
+      appendText(parent, "small", data.reason, "lesson-meta");
+    }
+
+    function showSample(index) {
+      const sample = samples[index];
+      element("book-title").textContent = sample.book;
+      element("outline").textContent = sample.outline;
+      const watched = sample.rows.filter((row) => row.first).length;
+      element("result-count").textContent = sample.rows.length + " 个小节 · 已匹配 " + watched + " 个";
+      const body = element("plan");
+      body.replaceChildren();
+      for (const row of sample.rows) {
+        const tr = document.createElement("tr");
+        const heading = appendText(tr, "th", row.chapter);
+        heading.scope = "row";
+        const cell = tr.insertCell();
+        if (row.first) {
+          video(cell, row.first);
+        } else {
+          appendText(cell, "strong", row.status);
+          cell.append(document.createElement("br"));
+          externalLink(cell, row.search, "到 B 站搜索");
+        }
+        if (row.alternatives.length) {
+          const alternatives = appendText(cell, "details", "", "more");
+          appendText(alternatives, "summary", "备选 " + row.alternatives.length + " 条");
+          const list = alternatives.appendChild(document.createElement("ul"));
+          for (const alternative of row.alternatives) video(list.appendChild(document.createElement("li")), alternative);
+        }
+        body.append(tr);
+      }
+      element("plan-table").hidden = false;
+      if (csvUrl) URL.revokeObjectURL(csvUrl);
+      const download = element("sample-csv");
+      download.download = index === 0 ? "functions-and-limits.csv" : sample.name + ".csv";
+      if (index === 0) {
+        download.href = "functions-and-limits.csv";
+      } else {
+        const bytes = Uint8Array.from(atob(sample.csv), (char) => char.charCodeAt(0));
+        csvUrl = URL.createObjectURL(new Blob([bytes], {type: "text/csv;charset=utf-8"}));
+        download.href = csvUrl;
+      }
+    }
+
+    async function initialize() {
+      const response = await fetch("samples.json");
+      if (!response.ok) throw new Error("样例加载失败");
+      samples = await response.json();
+      const picker = element("sample");
+      for (const [index, sample] of samples.entries()) {
+        const option = appendText(picker, "option", sample.name);
+        option.value = index;
+      }
+      picker.disabled = false;
+      element("generate").disabled = false;
+      element("sample-form").addEventListener("submit", (event) => {
+        event.preventDefault();
+        showSample(Number(picker.value));
+      });
+      showSample(0);
+      const featured = samples[0].rows[1];
+      if (featured.first && featured.first.part) {
+        element("featured-section").textContent = featured.chapter;
+        element("featured-video").textContent = featured.first.title.replace(/^\d+\.\d+\s+/, "");
+        const link = element("featured-link");
+        link.textContent = "到 B 站打开第 " + featured.first.part + " 集";
+        link.href = featured.first.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+      }
+    }
+
+    initialize().catch(() => {
+      element("book-title").textContent = "暂时无法载入页面样例";
+      element("result-count").textContent = "仍可下载高数 CSV 查看整章计划。";
+    });
+  </script>
+</body>
+</html>

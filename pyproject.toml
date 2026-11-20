@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "textbook-course-matcher"
-version = "0.1.0"
+version = "0.2.0"
 description = "Match a Chinese textbook outline to Bilibili lessons."
 readme = "README.md"
 requires-python = ">=3.12"

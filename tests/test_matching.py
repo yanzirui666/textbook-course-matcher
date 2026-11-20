@@ -16,10 +16,14 @@ def video(title, number=1, **kwargs):
     return Video(f"https://www.bilibili.com/video/av{number}/", title, **kwargs)
 
 
-def test_all_examples_match_five_chapters_in_order():
+def test_all_examples_match_verified_lessons_in_order():
     examples, catalog = load_catalog()
     expected_links = [
-        [f"https://www.bilibili.com/video/BV1Eb411u7Fw/?p={part}" for part in [7, 10, 12, 14, 15]],
+        [
+            *[f"https://www.bilibili.com/video/BV1Eb411u7Fw/?p={part}" for part in [1, 7, 10, 11, 12, 13, 14, 15]],
+            "https://www.bilibili.com/video/BV1kg411h7Lf/",
+            "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=17",
+        ],
         [f"https://www.bilibili.com/video/{item}/" for item in [
             "BV1Hy4y1t7ij", "BV1CQ4y1e7av", "BV11P4y1L7in", "BV18i4y1Z7am", "BV1GY4y1u7b2",
         ]],
@@ -151,3 +155,16 @@ def test_csv_has_excel_bom_ordered_rows_and_escapes_formulas():
     assert rows[0]["首选链接"] == "https://www.bilibili.com/video/av1/"
     assert rows[1]["教材章节"] == "'=1+1"
     assert rows[1]["匹配状态"] == "暂无可靠匹配"
+
+
+def test_public_showcase_matches_the_bundled_catalog():
+    from pathlib import Path
+    import subprocess
+    import sys
+
+    root = Path(__file__).resolve().parents[1]
+    subprocess.run(
+        [sys.executable, str(root / "scripts" / "build_showcase.py"), "--check"],
+        cwd=root,
+        check=True,
+    )

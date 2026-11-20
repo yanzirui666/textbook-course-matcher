@@ -1,0 +1,401 @@
+[
+  {
+    "name": "高等数学 · 函数与极限",
+    "book": "高等数学（同济第七版）",
+    "outline": "第一章 函数与极限\n  1.1 映射与函数\n  1.2 数列的极限\n  1.3 函数的极限\n  1.4 无穷小与无穷大\n  1.5 极限运算法则\n  1.6 极限存在准则 两个重要极限\n  1.7 无穷小的比较\n  1.8 函数的连续性与间断点\n  1.9 连续函数的运算与初等函数的连续性\n  1.10 闭区间上连续函数的性质",
+    "rows": [
+      {
+        "chapter": "1.1 映射与函数",
+        "status": "已匹配",
+        "first": {
+          "title": "1.1 映射",
+          "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+          "part": 1,
+          "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=1",
+          "reason": "已核对第 1 集，分集主题与本节对应。"
+        },
+        "alternatives": [
+          {
+            "title": "1.1 函数",
+            "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+            "part": 4,
+            "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=4",
+            "reason": "已核对第 4 集，分集主题与本节对应。"
+          },
+          {
+            "title": "1.1 反函数 复合函数 初等函数",
+            "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+            "part": 6,
+            "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=6",
+            "reason": "已核对第 6 集，分集主题与本节对应。"
+          }
+        ],
+        "search": "https://search.bilibili.com/all?keyword=%E6%98%A0%E5%B0%84%E4%B8%8E%E5%87%BD%E6%95%B0+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "1.2 数列的极限",
+        "status": "已匹配",
+        "first": {
+          "title": "1.2 数列极限的定义",
+          "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+          "part": 7,
+          "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=7",
+          "reason": "已核对第 7 集，分集主题与本节对应。"
+        },
+        "alternatives": [
+          {
+            "title": "1.2 收敛数列的性质",
+            "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+            "part": 8,
+            "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=8",
+            "reason": "已核对第 8 集，分集主题与本节对应。"
+          },
+          {
+            "title": "高数第一课：数列极限的定义",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1X44y1f7Ed/",
+            "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+          }
+        ],
+        "search": "https://search.bilibili.com/all?keyword=%E6%95%B0%E5%88%97%E7%9A%84%E6%9E%81%E9%99%90+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "1.3 函数的极限",
+        "status": "已匹配",
+        "first": {
+          "title": "1.3 函数极限",
+          "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+          "part": 10,
+          "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=10",
+          "reason": "已核对第 10 集，分集主题与本节对应。"
+        },
+        "alternatives": [
+          {
+            "title": "高等数学精讲：函数的极限",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1LN411n7ZN/",
+            "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+          },
+          {
+            "title": "函数极限的四则运算法则与证明",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1vn62BdEbK/",
+            "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+          }
+        ],
+        "search": "https://search.bilibili.com/all?keyword=%E5%87%BD%E6%95%B0%E7%9A%84%E6%9E%81%E9%99%90+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "1.4 无穷小与无穷大",
+        "status": "已匹配",
+        "first": {
+          "title": "1.4 无穷小与无穷大",
+          "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+          "part": 11,
+          "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=11",
+          "reason": "已核对第 11 集，分集主题与本节对应。"
+        },
+        "alternatives": [],
+        "search": "https://search.bilibili.com/all?keyword=%E6%97%A0%E7%A9%B7%E5%B0%8F%E4%B8%8E%E6%97%A0%E7%A9%B7%E5%A4%A7+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "1.5 极限运算法则",
+        "status": "已匹配",
+        "first": {
+          "title": "1.5 极限运算准则（修后）",
+          "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+          "part": 12,
+          "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=12",
+          "reason": "已核对第 12 集，分集主题与本节对应。"
+        },
+        "alternatives": [
+          {
+            "title": "函数极限的四则运算法则与证明",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1vn62BdEbK/",
+            "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+          }
+        ],
+        "search": "https://search.bilibili.com/all?keyword=%E6%9E%81%E9%99%90%E8%BF%90%E7%AE%97%E6%B3%95%E5%88%99+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "1.6 极限存在准则 两个重要极限",
+        "status": "已匹配",
+        "first": {
+          "title": "1.6 极限存在准则 两个重要极限",
+          "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+          "part": 13,
+          "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=13",
+          "reason": "已核对第 13 集，分集主题与本节对应。"
+        },
+        "alternatives": [],
+        "search": "https://search.bilibili.com/all?keyword=%E6%9E%81%E9%99%90%E5%AD%98%E5%9C%A8%E5%87%86%E5%88%99+%E4%B8%A4%E4%B8%AA%E9%87%8D%E8%A6%81%E6%9E%81%E9%99%90+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "1.7 无穷小的比较",
+        "status": "已匹配",
+        "first": {
+          "title": "1.7 无穷小的比较",
+          "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+          "part": 14,
+          "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=14",
+          "reason": "已核对第 14 集，分集主题与本节对应。"
+        },
+        "alternatives": [
+          {
+            "title": "无穷小的比较练习",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1o14y177cc/",
+            "reason": "本视频通过例题或练习讲解相关主题。"
+          }
+        ],
+        "search": "https://search.bilibili.com/all?keyword=%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%9A%84%E6%AF%94%E8%BE%83+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "1.8 函数的连续性与间断点",
+        "status": "已匹配",
+        "first": {
+          "title": "1.8 函数的连续性与间断点",
+          "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+          "part": 15,
+          "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=15",
+          "reason": "已核对第 15 集，分集主题与本节对应。"
+        },
+        "alternatives": [],
+        "search": "https://search.bilibili.com/all?keyword=%E5%87%BD%E6%95%B0%E7%9A%84%E8%BF%9E%E7%BB%AD%E6%80%A7%E4%B8%8E%E9%97%B4%E6%96%AD%E7%82%B9+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "1.9 连续函数的运算与初等函数的连续性",
+        "status": "已匹配",
+        "first": {
+          "title": "高数入门 · 连续函数运算与初等函数连续性",
+          "source": "",
+          "part": null,
+          "url": "https://www.bilibili.com/video/BV1kg411h7Lf/",
+          "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+        },
+        "alternatives": [],
+        "search": "https://search.bilibili.com/all?keyword=%E8%BF%9E%E7%BB%AD%E5%87%BD%E6%95%B0%E7%9A%84%E8%BF%90%E7%AE%97%E4%B8%8E%E5%88%9D%E7%AD%89%E5%87%BD%E6%95%B0%E7%9A%84%E8%BF%9E%E7%BB%AD%E6%80%A7+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "1.10 闭区间上连续函数的性质",
+        "status": "已匹配",
+        "first": {
+          "title": "1.10 闭区间连续函数的性质",
+          "source": "《高等数学》同济版 2024年更新｜宋浩老师",
+          "part": 17,
+          "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/?p=17",
+          "reason": "已核对第 17 集，分集主题与本节对应。"
+        },
+        "alternatives": [],
+        "search": "https://search.bilibili.com/all?keyword=%E9%97%AD%E5%8C%BA%E9%97%B4%E4%B8%8A%E8%BF%9E%E7%BB%AD%E5%87%BD%E6%95%B0%E7%9A%84%E6%80%A7%E8%B4%A8+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%90%8C%E6%B5%8E%E7%AC%AC%E4%B8%83%E7%89%88+%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6+%E5%87%BD%E6%95%B0%E4%B8%8E%E6%9E%81%E9%99%90+%E8%AE%B2%E8%A7%A3"
+      }
+    ],
+    "csv": "77u/6aG65bqPLOaVmeadkOeroOiKgizljLnphY3nirbmgIEs6aaW6YCJ6KeG6aKRLOmmlumAiemTvuaOpSzpppbpgInnkIbnlLEs5aSH6YCJ5LiALOWkh+mAieS4gOmTvuaOpSzlpIfpgInkuIDnkIbnlLEs5aSH6YCJ5LqMLOWkh+mAieS6jOmTvuaOpSzlpIfpgInkuoznkIbnlLEsQuermeaQnOe0og0KMSznrKzkuIDnq6Ag5Ye95pWw5LiO5p6B6ZmQIOKAuiAxLjEg5pig5bCE5LiO5Ye95pWwLOW3suWMuemFjSwxLjEg5pig5bCEIMK3IOOAiumrmOetieaVsOWtpuOAi+WQjOa1jueJiCAyMDI05bm05pu05paw772c5a6L5rWp6ICB5biILGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFFYjQxMXU3RncvP3A9MSzlt7LmoLjlr7nnrKwgMSDpm4bvvIzliIbpm4bkuLvpopjkuI7mnKzoioLlr7nlupTjgIIsMS4xIOWHveaVsCDCtyDjgIrpq5jnrYnmlbDlrabjgIvlkIzmtY7niYggMjAyNOW5tOabtOaWsO+9nOWui+a1qeiAgeW4iCxodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxRWI0MTF1N0Z3Lz9wPTQs5bey5qC45a+556ysIDQg6ZuG77yM5YiG6ZuG5Li76aKY5LiO5pys6IqC5a+55bqU44CCLDEuMSDlj43lh73mlbAg5aSN5ZCI5Ye95pWwIOWIneetieWHveaVsCDCtyDjgIrpq5jnrYnmlbDlrabjgIvlkIzmtY7niYggMjAyNOW5tOabtOaWsO+9nOWui+a1qeiAgeW4iCxodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxRWI0MTF1N0Z3Lz9wPTYs5bey5qC45a+556ysIDYg6ZuG77yM5YiG6ZuG5Li76aKY5LiO5pys6IqC5a+55bqU44CCLGh0dHBzOi8vc2VhcmNoLmJpbGliaWxpLmNvbS9hbGw/a2V5d29yZD0lRTYlOTglQTAlRTUlQjAlODQlRTQlQjglOEUlRTUlODclQkQlRTYlOTUlQjArJUU5JUFCJTk4JUU3JUFEJTg5JUU2JTk1JUIwJUU1JUFEJUE2KyVFNSU5MCU4QyVFNiVCNSU4RSVFNyVBQyVBQyVFNCVCOCU4MyVFNyU4OSU4OCslRTklQUIlOTglRTclQUQlODklRTYlOTUlQjAlRTUlQUQlQTYrJUU1JTg3JUJEJUU2JTk1JUIwJUU0JUI4JThFJUU2JTlFJTgxJUU5JTk5JTkwKyVFOCVBRSVCMiVFOCVBNyVBMw0KMiznrKzkuIDnq6Ag5Ye95pWw5LiO5p6B6ZmQIOKAuiAxLjIg5pWw5YiX55qE5p6B6ZmQLOW3suWMuemFjSwxLjIg5pWw5YiX5p6B6ZmQ55qE5a6a5LmJIMK3IOOAiumrmOetieaVsOWtpuOAi+WQjOa1jueJiCAyMDI05bm05pu05paw772c5a6L5rWp6ICB5biILGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFFYjQxMXU3RncvP3A9Nyzlt7LmoLjlr7nnrKwgNyDpm4bvvIzliIbpm4bkuLvpopjkuI7mnKzoioLlr7nlupTjgIIsMS4yIOaUtuaVm+aVsOWIl+eahOaAp+i0qCDCtyDjgIrpq5jnrYnmlbDlrabjgIvlkIzmtY7niYggMjAyNOW5tOabtOaWsO+9nOWui+a1qeiAgeW4iCxodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxRWI0MTF1N0Z3Lz9wPTgs5bey5qC45a+556ysIDgg6ZuG77yM5YiG6ZuG5Li76aKY5LiO5pys6IqC5a+55bqU44CCLOmrmOaVsOesrOS4gOivvu+8muaVsOWIl+aegemZkOeahOWumuS5iSxodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxWDQ0eTFmN0VkLyzop4bpopHmoIfpopjlr7nlupTmnKzoioLkuLvpopjvvIznp5Hnm67miJbkuIrnuqfnq6DoioLkuZ/nm7jnrKbjgIIsaHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPSVFNiU5NSVCMCVFNSU4OCU5NyVFNyU5QSU4NCVFNiU5RSU4MSVFOSU5OSU5MCslRTklQUIlOTglRTclQUQlODklRTYlOTUlQjAlRTUlQUQlQTYrJUU1JTkwJThDJUU2JUI1JThFJUU3JUFDJUFDJUU0JUI4JTgzJUU3JTg5JTg4KyVFOSVBQiU5OCVFNyVBRCU4OSVFNiU5NSVCMCVFNSVBRCVBNislRTUlODclQkQlRTYlOTUlQjAlRTQlQjglOEUlRTYlOUUlODElRTklOTklOTArJUU4JUFFJUIyJUU4JUE3JUEzDQozLOesrOS4gOeroCDlh73mlbDkuI7mnoHpmZAg4oC6IDEuMyDlh73mlbDnmoTmnoHpmZAs5bey5Yy56YWNLDEuMyDlh73mlbDmnoHpmZAgwrcg44CK6auY562J5pWw5a2m44CL5ZCM5rWO54mIIDIwMjTlubTmm7TmlrDvvZzlrovmtanogIHluIgsaHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMUViNDExdTdGdy8/cD0xMCzlt7LmoLjlr7nnrKwgMTAg6ZuG77yM5YiG6ZuG5Li76aKY5LiO5pys6IqC5a+55bqU44CCLOmrmOetieaVsOWtpueyvuiusu+8muWHveaVsOeahOaegemZkCxodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxTE40MTFuN1pOLyzop4bpopHmoIfpopjlr7nlupTmnKzoioLkuLvpopjvvIznp5Hnm67miJbkuIrnuqfnq6DoioLkuZ/nm7jnrKbjgIIs5Ye95pWw5p6B6ZmQ55qE5Zub5YiZ6L+Q566X5rOV5YiZ5LiO6K+B5piOLGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjF2bjYyQmRFYksvLOinhumikeagh+mimOWvueW6lOacrOiKguS4u+mimO+8jOenkeebruaIluS4iue6p+eroOiKguS5n+ebuOespuOAgixodHRwczovL3NlYXJjaC5iaWxpYmlsaS5jb20vYWxsP2tleXdvcmQ9JUU1JTg3JUJEJUU2JTk1JUIwJUU3JTlBJTg0JUU2JTlFJTgxJUU5JTk5JTkwKyVFOSVBQiU5OCVFNyVBRCU4OSVFNiU5NSVCMCVFNSVBRCVBNislRTUlOTAlOEMlRTYlQjUlOEUlRTclQUMlQUMlRTQlQjglODMlRTclODklODgrJUU5JUFCJTk4JUU3JUFEJTg5JUU2JTk1JUIwJUU1JUFEJUE2KyVFNSU4NyVCRCVFNiU5NSVCMCVFNCVCOCU4RSVFNiU5RSU4MSVFOSU5OSU5MCslRTglQUUlQjIlRTglQTclQTMNCjQs56ys5LiA56ugIOWHveaVsOS4juaegemZkCDigLogMS40IOaXoOept+Wwj+S4juaXoOept+Wkpyzlt7LljLnphY0sMS40IOaXoOept+Wwj+S4juaXoOept+WkpyDCtyDjgIrpq5jnrYnmlbDlrabjgIvlkIzmtY7niYggMjAyNOW5tOabtOaWsO+9nOWui+a1qeiAgeW4iCxodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxRWI0MTF1N0Z3Lz9wPTExLOW3suaguOWvueesrCAxMSDpm4bvvIzliIbpm4bkuLvpopjkuI7mnKzoioLlr7nlupTjgIIsLCwsLCwsaHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPSVFNiU5NyVBMCVFNyVBOSVCNyVFNSVCMCU4RiVFNCVCOCU4RSVFNiU5NyVBMCVFNyVBOSVCNyVFNSVBNCVBNyslRTklQUIlOTglRTclQUQlODklRTYlOTUlQjAlRTUlQUQlQTYrJUU1JTkwJThDJUU2JUI1JThFJUU3JUFDJUFDJUU0JUI4JTgzJUU3JTg5JTg4KyVFOSVBQiU5OCVFNyVBRCU4OSVFNiU5NSVCMCVFNSVBRCVBNislRTUlODclQkQlRTYlOTUlQjAlRTQlQjglOEUlRTYlOUUlODElRTklOTklOTArJUU4JUFFJUIyJUU4JUE3JUEzDQo1LOesrOS4gOeroCDlh73mlbDkuI7mnoHpmZAg4oC6IDEuNSDmnoHpmZDov5Dnrpfms5XliJks5bey5Yy56YWNLDEuNSDmnoHpmZDov5Dnrpflh4bliJnvvIjkv67lkI7vvIkgwrcg44CK6auY562J5pWw5a2m44CL5ZCM5rWO54mIIDIwMjTlubTmm7TmlrDvvZzlrovmtanogIHluIgsaHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMUViNDExdTdGdy8/cD0xMizlt7LmoLjlr7nnrKwgMTIg6ZuG77yM5YiG6ZuG5Li76aKY5LiO5pys6IqC5a+55bqU44CCLOWHveaVsOaegemZkOeahOWbm+WImei/kOeul+azleWImeS4juivgeaYjixodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxdm42MkJkRWJLLyzop4bpopHmoIfpopjlr7nlupTmnKzoioLkuLvpopjvvIznp5Hnm67miJbkuIrnuqfnq6DoioLkuZ/nm7jnrKbjgIIsLCwsaHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPSVFNiU5RSU4MSVFOSU5OSU5MCVFOCVCRiU5MCVFNyVBRSU5NyVFNiVCMyU5NSVFNSU4OCU5OSslRTklQUIlOTglRTclQUQlODklRTYlOTUlQjAlRTUlQUQlQTYrJUU1JTkwJThDJUU2JUI1JThFJUU3JUFDJUFDJUU0JUI4JTgzJUU3JTg5JTg4KyVFOSVBQiU5OCVFNyVBRCU4OSVFNiU5NSVCMCVFNSVBRCVBNislRTUlODclQkQlRTYlOTUlQjAlRTQlQjglOEUlRTYlOUUlODElRTklOTklOTArJUU4JUFFJUIyJUU4JUE3JUEzDQo2LOesrOS4gOeroCDlh73mlbDkuI7mnoHpmZAg4oC6IDEuNiDmnoHpmZDlrZjlnKjlh4bliJkg5Lik5Liq6YeN6KaB5p6B6ZmQLOW3suWMuemFjSwxLjYg5p6B6ZmQ5a2Y5Zyo5YeG5YiZIOS4pOS4qumHjeimgeaegemZkCDCtyDjgIrpq5jnrYnmlbDlrabjgIvlkIzmtY7niYggMjAyNOW5tOabtOaWsO+9nOWui+a1qeiAgeW4iCxodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxRWI0MTF1N0Z3Lz9wPTEzLOW3suaguOWvueesrCAxMyDpm4bvvIzliIbpm4bkuLvpopjkuI7mnKzoioLlr7nlupTjgIIsLCwsLCwsaHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPSVFNiU5RSU4MSVFOSU5OSU5MCVFNSVBRCU5OCVFNSU5QyVBOCVFNSU4NyU4NiVFNSU4OCU5OSslRTQlQjglQTQlRTQlQjglQUElRTklODclOEQlRTglQTYlODElRTYlOUUlODElRTklOTklOTArJUU5JUFCJTk4JUU3JUFEJTg5JUU2JTk1JUIwJUU1JUFEJUE2KyVFNSU5MCU4QyVFNiVCNSU4RSVFNyVBQyVBQyVFNCVCOCU4MyVFNyU4OSU4OCslRTklQUIlOTglRTclQUQlODklRTYlOTUlQjAlRTUlQUQlQTYrJUU1JTg3JUJEJUU2JTk1JUIwJUU0JUI4JThFJUU2JTlFJTgxJUU5JTk5JTkwKyVFOCVBRSVCMiVFOCVBNyVBMw0KNyznrKzkuIDnq6Ag5Ye95pWw5LiO5p6B6ZmQIOKAuiAxLjcg5peg56m35bCP55qE5q+U6L6DLOW3suWMuemFjSwxLjcg5peg56m35bCP55qE5q+U6L6DIMK3IOOAiumrmOetieaVsOWtpuOAi+WQjOa1jueJiCAyMDI05bm05pu05paw772c5a6L5rWp6ICB5biILGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFFYjQxMXU3RncvP3A9MTQs5bey5qC45a+556ysIDE0IOmbhu+8jOWIhumbhuS4u+mimOS4juacrOiKguWvueW6lOOAgizml6DnqbflsI/nmoTmr5TovoPnu4PkuaAsaHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMW8xNHkxNzdjYy8s5pys6KeG6aKR6YCa6L+H5L6L6aKY5oiW57uD5Lmg6K6y6Kej55u45YWz5Li76aKY44CCLCwsLGh0dHBzOi8vc2VhcmNoLmJpbGliaWxpLmNvbS9hbGw/a2V5d29yZD0lRTYlOTclQTAlRTclQTklQjclRTUlQjAlOEYlRTclOUElODQlRTYlQUYlOTQlRTglQkUlODMrJUU5JUFCJTk4JUU3JUFEJTg5JUU2JTk1JUIwJUU1JUFEJUE2KyVFNSU5MCU4QyVFNiVCNSU4RSVFNyVBQyVBQyVFNCVCOCU4MyVFNyU4OSU4OCslRTklQUIlOTglRTclQUQlODklRTYlOTUlQjAlRTUlQUQlQTYrJUU1JTg3JUJEJUU2JTk1JUIwJUU0JUI4JThFJUU2JTlFJTgxJUU5JTk5JTkwKyVFOCVBRSVCMiVFOCVBNyVBMw0KOCznrKzkuIDnq6Ag5Ye95pWw5LiO5p6B6ZmQIOKAuiAxLjgg5Ye95pWw55qE6L+e57ut5oCn5LiO6Ze05pat54K5LOW3suWMuemFjSwxLjgg5Ye95pWw55qE6L+e57ut5oCn5LiO6Ze05pat54K5IMK3IOOAiumrmOetieaVsOWtpuOAi+WQjOa1jueJiCAyMDI05bm05pu05paw772c5a6L5rWp6ICB5biILGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFFYjQxMXU3RncvP3A9MTUs5bey5qC45a+556ysIDE1IOmbhu+8jOWIhumbhuS4u+mimOS4juacrOiKguWvueW6lOOAgiwsLCwsLCxodHRwczovL3NlYXJjaC5iaWxpYmlsaS5jb20vYWxsP2tleXdvcmQ9JUU1JTg3JUJEJUU2JTk1JUIwJUU3JTlBJTg0JUU4JUJGJTlFJUU3JUJCJUFEJUU2JTgwJUE3JUU0JUI4JThFJUU5JTk3JUI0JUU2JTk2JUFEJUU3JTgyJUI5KyVFOSVBQiU5OCVFNyVBRCU4OSVFNiU5NSVCMCVFNSVBRCVBNislRTUlOTAlOEMlRTYlQjUlOEUlRTclQUMlQUMlRTQlQjglODMlRTclODklODgrJUU5JUFCJTk4JUU3JUFEJTg5JUU2JTk1JUIwJUU1JUFEJUE2KyVFNSU4NyVCRCVFNiU5NSVCMCVFNCVCOCU4RSVFNiU5RSU4MSVFOSU5OSU5MCslRTglQUUlQjIlRTglQTclQTMNCjks56ys5LiA56ugIOWHveaVsOS4juaegemZkCDigLogMS45IOi/nue7reWHveaVsOeahOi/kOeul+S4juWIneetieWHveaVsOeahOi/nue7reaApyzlt7LljLnphY0s6auY5pWw5YWl6ZeoIMK3IOi/nue7reWHveaVsOi/kOeul+S4juWIneetieWHveaVsOi/nue7reaApyxodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxa2c0MTFoN0xmLyzop4bpopHmoIfpopjlr7nlupTmnKzoioLkuLvpopjvvIznp5Hnm67miJbkuIrnuqfnq6DoioLkuZ/nm7jnrKbjgIIsLCwsLCwsaHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPSVFOCVCRiU5RSVFNyVCQiVBRCVFNSU4NyVCRCVFNiU5NSVCMCVFNyU5QSU4NCVFOCVCRiU5MCVFNyVBRSU5NyVFNCVCOCU4RSVFNSU4OCU5RCVFNyVBRCU4OSVFNSU4NyVCRCVFNiU5NSVCMCVFNyU5QSU4NCVFOCVCRiU5RSVFNyVCQiVBRCVFNiU4MCVBNyslRTklQUIlOTglRTclQUQlODklRTYlOTUlQjAlRTUlQUQlQTYrJUU1JTkwJThDJUU2JUI1JThFJUU3JUFDJUFDJUU0JUI4JTgzJUU3JTg5JTg4KyVFOSVBQiU5OCVFNyVBRCU4OSVFNiU5NSVCMCVFNSVBRCVBNislRTUlODclQkQlRTYlOTUlQjAlRTQlQjglOEUlRTYlOUUlODElRTklOTklOTArJUU4JUFFJUIyJUU4JUE3JUEzDQoxMCznrKzkuIDnq6Ag5Ye95pWw5LiO5p6B6ZmQIOKAuiAxLjEwIOmXreWMuumXtOS4iui/nue7reWHveaVsOeahOaAp+i0qCzlt7LljLnphY0sMS4xMCDpl63ljLrpl7Tov57nu63lh73mlbDnmoTmgKfotKggwrcg44CK6auY562J5pWw5a2m44CL5ZCM5rWO54mIIDIwMjTlubTmm7TmlrDvvZzlrovmtanogIHluIgsaHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMUViNDExdTdGdy8/cD0xNyzlt7LmoLjlr7nnrKwgMTcg6ZuG77yM5YiG6ZuG5Li76aKY5LiO5pys6IqC5a+55bqU44CCLCwsLCwsLGh0dHBzOi8vc2VhcmNoLmJpbGliaWxpLmNvbS9hbGw/a2V5d29yZD0lRTklOTclQUQlRTUlOEMlQkElRTklOTclQjQlRTQlQjglOEElRTglQkYlOUUlRTclQkIlQUQlRTUlODclQkQlRTYlOTUlQjAlRTclOUElODQlRTYlODAlQTclRTglQjQlQTgrJUU5JUFCJTk4JUU3JUFEJTg5JUU2JTk1JUIwJUU1JUFEJUE2KyVFNSU5MCU4QyVFNiVCNSU4RSVFNyVBQyVBQyVFNCVCOCU4MyVFNyU4OSU4OCslRTklQUIlOTglRTclQUQlODklRTYlOTUlQjAlRTUlQUQlQTYrJUU1JTg3JUJEJUU2JTk1JUIwJUU0JUI4JThFJUU2JTlFJTgxJUU5JTk5JTkwKyVFOCVBRSVCMiVFOCVBNyVBMw0K"
+  },
+  {
+    "name": "数据结构 · 二叉树",
+    "book": "数据结构",
+    "outline": "第六章 树与二叉树\n  6.1 二叉树的定义\n  6.2 二叉树的前序遍历\n  6.3 二叉树的中序遍历\n  6.4 二叉树的后序遍历\n  6.5 二叉树的层序遍历",
+    "rows": [
+      {
+        "chapter": "6.1 二叉树的定义",
+        "status": "已匹配",
+        "first": {
+          "title": "关于二叉树，你该了解这些！",
+          "source": "",
+          "part": null,
+          "url": "https://www.bilibili.com/video/BV1Hy4y1t7ij/",
+          "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+        },
+        "alternatives": [],
+        "search": "https://search.bilibili.com/all?keyword=%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%AE%9A%E4%B9%89+%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84+%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "6.2 二叉树的前序遍历",
+        "status": "已匹配",
+        "first": {
+          "title": "二叉树的先、中、后序遍历（递归版）",
+          "source": "",
+          "part": null,
+          "url": "https://www.bilibili.com/video/BV1CQ4y1e7av/",
+          "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+        },
+        "alternatives": [
+          {
+            "title": "二叉树遍历秒解：前序遍历、中序遍历、后序遍历",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1hw4m1q7DF/",
+            "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+          }
+        ],
+        "search": "https://search.bilibili.com/all?keyword=%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86+%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84+%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "6.3 二叉树的中序遍历",
+        "status": "已匹配",
+        "first": {
+          "title": "手画图解：二叉树的中序遍历",
+          "source": "",
+          "part": null,
+          "url": "https://www.bilibili.com/video/BV11P4y1L7in/",
+          "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+        },
+        "alternatives": [
+          {
+            "title": "二叉树的先、中、后序遍历（递归版）",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1CQ4y1e7av/",
+            "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+          },
+          {
+            "title": "二叉树遍历秒解：前序遍历、中序遍历、后序遍历",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1hw4m1q7DF/",
+            "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+          }
+        ],
+        "search": "https://search.bilibili.com/all?keyword=%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86+%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84+%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "6.4 二叉树的后序遍历",
+        "status": "已匹配",
+        "first": {
+          "title": "二叉树遍历：后序（非递归）",
+          "source": "",
+          "part": null,
+          "url": "https://www.bilibili.com/video/BV18i4y1Z7am/",
+          "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+        },
+        "alternatives": [
+          {
+            "title": "二叉树的先、中、后序遍历（递归版）",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1CQ4y1e7av/",
+            "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+          },
+          {
+            "title": "二叉树遍历秒解：前序遍历、中序遍历、后序遍历",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1hw4m1q7DF/",
+            "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+          }
+        ],
+        "search": "https://search.bilibili.com/all?keyword=%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86+%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84+%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "6.5 二叉树的层序遍历",
+        "status": "已匹配",
+        "first": {
+          "title": "讲透二叉树的层序遍历",
+          "source": "",
+          "part": null,
+          "url": "https://www.bilibili.com/video/BV1GY4y1u7b2/",
+          "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+        },
+        "alternatives": [],
+        "search": "https://search.bilibili.com/all?keyword=%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86+%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84+%E6%A0%91%E4%B8%8E%E4%BA%8C%E5%8F%89%E6%A0%91+%E8%AE%B2%E8%A7%A3"
+      }
+    ],
+    "csv": "77u/6aG65bqPLOaVmeadkOeroOiKgizljLnphY3nirbmgIEs6aaW6YCJ6KeG6aKRLOmmlumAiemTvuaOpSzpppbpgInnkIbnlLEs5aSH6YCJ5LiALOWkh+mAieS4gOmTvuaOpSzlpIfpgInkuIDnkIbnlLEs5aSH6YCJ5LqMLOWkh+mAieS6jOmTvuaOpSzlpIfpgInkuoznkIbnlLEsQuermeaQnOe0og0KMSznrKzlha3nq6Ag5qCR5LiO5LqM5Y+J5qCRIOKAuiA2LjEg5LqM5Y+J5qCR55qE5a6a5LmJLOW3suWMuemFjSzlhbPkuo7kuozlj4nmoJHvvIzkvaDor6Xkuobop6Pov5nkupvvvIEsaHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMUh5NHkxdDdpai8s6KeG6aKR5qCH6aKY5a+55bqU5pys6IqC5Li76aKY77yM56eR55uu5oiW5LiK57qn56ug6IqC5Lmf55u456ym44CCLCwsLCwsLGh0dHBzOi8vc2VhcmNoLmJpbGliaWxpLmNvbS9hbGw/a2V5d29yZD0lRTQlQkElOEMlRTUlOEYlODklRTYlQTAlOTElRTclOUElODQlRTUlQUUlOUElRTQlQjklODkrJUU2JTk1JUIwJUU2JThEJUFFJUU3JUJCJTkzJUU2JTlFJTg0KyVFNiVBMCU5MSVFNCVCOCU4RSVFNCVCQSU4QyVFNSU4RiU4OSVFNiVBMCU5MSslRTglQUUlQjIlRTglQTclQTMNCjIs56ys5YWt56ugIOagkeS4juS6jOWPieagkSDigLogNi4yIOS6jOWPieagkeeahOWJjeW6j+mBjeWOhizlt7LljLnphY0s5LqM5Y+J5qCR55qE5YWI44CB5Lit44CB5ZCO5bqP6YGN5Y6G77yI6YCS5b2S54mI77yJLGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFDUTR5MWU3YXYvLOinhumikeagh+mimOWvueW6lOacrOiKguS4u+mimO+8jOenkeebruaIluS4iue6p+eroOiKguS5n+ebuOespuOAgizkuozlj4nmoJHpgY3ljobnp5Lop6PvvJrliY3luo/pgY3ljobjgIHkuK3luo/pgY3ljobjgIHlkI7luo/pgY3ljoYsaHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMWh3NG0xcTdERi8s6KeG6aKR5qCH6aKY5a+55bqU5pys6IqC5Li76aKY77yM56eR55uu5oiW5LiK57qn56ug6IqC5Lmf55u456ym44CCLCwsLGh0dHBzOi8vc2VhcmNoLmJpbGliaWxpLmNvbS9hbGw/a2V5d29yZD0lRTQlQkElOEMlRTUlOEYlODklRTYlQTAlOTElRTclOUElODQlRTUlODklOEQlRTUlQkElOEYlRTklODElOEQlRTUlOEUlODYrJUU2JTk1JUIwJUU2JThEJUFFJUU3JUJCJTkzJUU2JTlFJTg0KyVFNiVBMCU5MSVFNCVCOCU4RSVFNCVCQSU4QyVFNSU4RiU4OSVFNiVBMCU5MSslRTglQUUlQjIlRTglQTclQTMNCjMs56ys5YWt56ugIOagkeS4juS6jOWPieagkSDigLogNi4zIOS6jOWPieagkeeahOS4reW6j+mBjeWOhizlt7LljLnphY0s5omL55S75Zu+6Kej77ya5LqM5Y+J5qCR55qE5Lit5bqP6YGN5Y6GLGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjExUDR5MUw3aW4vLOinhumikeagh+mimOWvueW6lOacrOiKguS4u+mimO+8jOenkeebruaIluS4iue6p+eroOiKguS5n+ebuOespuOAgizkuozlj4nmoJHnmoTlhYjjgIHkuK3jgIHlkI7luo/pgY3ljobvvIjpgJLlvZLniYjvvIksaHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMUNRNHkxZTdhdi8s6KeG6aKR5qCH6aKY5a+55bqU5pys6IqC5Li76aKY77yM56eR55uu5oiW5LiK57qn56ug6IqC5Lmf55u456ym44CCLOS6jOWPieagkemBjeWOhuenkuino++8muWJjeW6j+mBjeWOhuOAgeS4reW6j+mBjeWOhuOAgeWQjuW6j+mBjeWOhixodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxaHc0bTFxN0RGLyzop4bpopHmoIfpopjlr7nlupTmnKzoioLkuLvpopjvvIznp5Hnm67miJbkuIrnuqfnq6DoioLkuZ/nm7jnrKbjgIIsaHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPSVFNCVCQSU4QyVFNSU4RiU4OSVFNiVBMCU5MSVFNyU5QSU4NCVFNCVCOCVBRCVFNSVCQSU4RiVFOSU4MSU4RCVFNSU4RSU4NislRTYlOTUlQjAlRTYlOEQlQUUlRTclQkIlOTMlRTYlOUUlODQrJUU2JUEwJTkxJUU0JUI4JThFJUU0JUJBJThDJUU1JThGJTg5JUU2JUEwJTkxKyVFOCVBRSVCMiVFOCVBNyVBMw0KNCznrKzlha3nq6Ag5qCR5LiO5LqM5Y+J5qCRIOKAuiA2LjQg5LqM5Y+J5qCR55qE5ZCO5bqP6YGN5Y6GLOW3suWMuemFjSzkuozlj4nmoJHpgY3ljobvvJrlkI7luo/vvIjpnZ7pgJLlvZLvvIksaHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMThpNHkxWjdhbS8s6KeG6aKR5qCH6aKY5a+55bqU5pys6IqC5Li76aKY77yM56eR55uu5oiW5LiK57qn56ug6IqC5Lmf55u456ym44CCLOS6jOWPieagkeeahOWFiOOAgeS4reOAgeWQjuW6j+mBjeWOhu+8iOmAkuW9kueJiO+8iSxodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxQ1E0eTFlN2F2Lyzop4bpopHmoIfpopjlr7nlupTmnKzoioLkuLvpopjvvIznp5Hnm67miJbkuIrnuqfnq6DoioLkuZ/nm7jnrKbjgIIs5LqM5Y+J5qCR6YGN5Y6G56eS6Kej77ya5YmN5bqP6YGN5Y6G44CB5Lit5bqP6YGN5Y6G44CB5ZCO5bqP6YGN5Y6GLGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjFodzRtMXE3REYvLOinhumikeagh+mimOWvueW6lOacrOiKguS4u+mimO+8jOenkeebruaIluS4iue6p+eroOiKguS5n+ebuOespuOAgixodHRwczovL3NlYXJjaC5iaWxpYmlsaS5jb20vYWxsP2tleXdvcmQ9JUU0JUJBJThDJUU1JThGJTg5JUU2JUEwJTkxJUU3JTlBJTg0JUU1JTkwJThFJUU1JUJBJThGJUU5JTgxJThEJUU1JThFJTg2KyVFNiU5NSVCMCVFNiU4RCVBRSVFNyVCQiU5MyVFNiU5RSU4NCslRTYlQTAlOTElRTQlQjglOEUlRTQlQkElOEMlRTUlOEYlODklRTYlQTAlOTErJUU4JUFFJUIyJUU4JUE3JUEzDQo1LOesrOWFreeroCDmoJHkuI7kuozlj4nmoJEg4oC6IDYuNSDkuozlj4nmoJHnmoTlsYLluo/pgY3ljoYs5bey5Yy56YWNLOiusumAj+S6jOWPieagkeeahOWxguW6j+mBjeWOhixodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxR1k0eTF1N2IyLyzop4bpopHmoIfpopjlr7nlupTmnKzoioLkuLvpopjvvIznp5Hnm67miJbkuIrnuqfnq6DoioLkuZ/nm7jnrKbjgIIsLCwsLCwsaHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPSVFNCVCQSU4QyVFNSU4RiU4OSVFNiVBMCU5MSVFNyU5QSU4NCVFNSVCMSU4MiVFNSVCQSU4RiVFOSU4MSU4RCVFNSU4RSU4NislRTYlOTUlQjAlRTYlOEQlQUUlRTclQkIlOTMlRTYlOUUlODQrJUU2JUEwJTkxJUU0JUI4JThFJUU0JUJBJThDJUU1JThGJTg5JUU2JUEwJTkxKyVFOCVBRSVCMiVFOCVBNyVBMw0K"
+  },
+  {
+    "name": "历史 · 世界近代史",
+    "book": "世界近代史",
+    "outline": "第一章 近代政治与工业化\n  第一节 君主立宪制的英国\n  第二节 美国独立战争\n  第三节 法国大革命\n  第四节 第一次工业革命\n  第五节 第二次工业革命",
+    "rows": [
+      {
+        "chapter": "第一节 君主立宪制的英国",
+        "status": "已匹配",
+        "first": {
+          "title": "第17课 君主立宪制的英国",
+          "source": "",
+          "part": null,
+          "url": "https://www.bilibili.com/video/BV1ew411k75L/",
+          "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+        },
+        "alternatives": [],
+        "search": "https://search.bilibili.com/all?keyword=%E5%90%9B%E4%B8%BB%E7%AB%8B%E5%AE%AA%E5%88%B6%E7%9A%84%E8%8B%B1%E5%9B%BD+%E4%B8%96%E7%95%8C%E8%BF%91%E4%BB%A3%E5%8F%B2+%E5%8E%86%E5%8F%B2+%E8%BF%91%E4%BB%A3%E6%94%BF%E6%B2%BB%E4%B8%8E%E5%B7%A5%E4%B8%9A%E5%8C%96+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "第二节 美国独立战争",
+        "status": "已匹配",
+        "first": {
+          "title": "中学历史精品课：美国独立战争",
+          "source": "",
+          "part": null,
+          "url": "https://www.bilibili.com/video/BV1QZ4y157tK/",
+          "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+        },
+        "alternatives": [],
+        "search": "https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E7%8B%AC%E7%AB%8B%E6%88%98%E4%BA%89+%E4%B8%96%E7%95%8C%E8%BF%91%E4%BB%A3%E5%8F%B2+%E5%8E%86%E5%8F%B2+%E8%BF%91%E4%BB%A3%E6%94%BF%E6%B2%BB%E4%B8%8E%E5%B7%A5%E4%B8%9A%E5%8C%96+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "第三节 法国大革命",
+        "status": "已匹配",
+        "first": {
+          "title": "九上历史：法国大革命和拿破仑帝国",
+          "source": "",
+          "part": null,
+          "url": "https://www.bilibili.com/video/BV17RyqBjEWi/",
+          "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+        },
+        "alternatives": [
+          {
+            "title": "初中历史：法国大革命和拿破仑帝国",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1b94UeLEy1/",
+            "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+          }
+        ],
+        "search": "https://search.bilibili.com/all?keyword=%E6%B3%95%E5%9B%BD%E5%A4%A7%E9%9D%A9%E5%91%BD+%E4%B8%96%E7%95%8C%E8%BF%91%E4%BB%A3%E5%8F%B2+%E5%8E%86%E5%8F%B2+%E8%BF%91%E4%BB%A3%E6%94%BF%E6%B2%BB%E4%B8%8E%E5%B7%A5%E4%B8%9A%E5%8C%96+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "第四节 第一次工业革命",
+        "status": "已匹配",
+        "first": {
+          "title": "九上历史：第1次工业革命",
+          "source": "",
+          "part": null,
+          "url": "https://www.bilibili.com/video/BV1pU1sBdEHg/",
+          "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+        },
+        "alternatives": [
+          {
+            "title": "九上历史公开课《第一次工业革命》",
+            "source": "",
+            "part": null,
+            "url": "https://www.bilibili.com/video/BV1hs2sBKExc/",
+            "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+          }
+        ],
+        "search": "https://search.bilibili.com/all?keyword=%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B7%A5%E4%B8%9A%E9%9D%A9%E5%91%BD+%E4%B8%96%E7%95%8C%E8%BF%91%E4%BB%A3%E5%8F%B2+%E5%8E%86%E5%8F%B2+%E8%BF%91%E4%BB%A3%E6%94%BF%E6%B2%BB%E4%B8%8E%E5%B7%A5%E4%B8%9A%E5%8C%96+%E8%AE%B2%E8%A7%A3"
+      },
+      {
+        "chapter": "第五节 第二次工业革命",
+        "status": "已匹配",
+        "first": {
+          "title": "九下历史：第5课 第二次工业革命",
+          "source": "",
+          "part": null,
+          "url": "https://www.bilibili.com/video/BV1MECeBnEzk/",
+          "reason": "视频标题对应本节主题，科目或上级章节也相符。"
+        },
+        "alternatives": [],
+        "search": "https://search.bilibili.com/all?keyword=%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%B7%A5%E4%B8%9A%E9%9D%A9%E5%91%BD+%E4%B8%96%E7%95%8C%E8%BF%91%E4%BB%A3%E5%8F%B2+%E5%8E%86%E5%8F%B2+%E8%BF%91%E4%BB%A3%E6%94%BF%E6%B2%BB%E4%B8%8E%E5%B7%A5%E4%B8%9A%E5%8C%96+%E8%AE%B2%E8%A7%A3"
+      }
+    ],
+    "csv": "77u/6aG65bqPLOaVmeadkOeroOiKgizljLnphY3nirbmgIEs6aaW6YCJ6KeG6aKRLOmmlumAiemTvuaOpSzpppbpgInnkIbnlLEs5aSH6YCJ5LiALOWkh+mAieS4gOmTvuaOpSzlpIfpgInkuIDnkIbnlLEs5aSH6YCJ5LqMLOWkh+mAieS6jOmTvuaOpSzlpIfpgInkuoznkIbnlLEsQuermeaQnOe0og0KMSznrKzkuIDnq6Ag6L+R5Luj5pS/5rK75LiO5bel5Lia5YyWIOKAuiDnrKzkuIDoioIg5ZCb5Li756uL5a6q5Yi255qE6Iux5Zu9LOW3suWMuemFjSznrKwxN+ivviDlkJvkuLvnq4vlrqrliLbnmoToi7Hlm70saHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMWV3NDExazc1TC8s6KeG6aKR5qCH6aKY5a+55bqU5pys6IqC5Li76aKY77yM56eR55uu5oiW5LiK57qn56ug6IqC5Lmf55u456ym44CCLCwsLCwsLGh0dHBzOi8vc2VhcmNoLmJpbGliaWxpLmNvbS9hbGw/a2V5d29yZD0lRTUlOTAlOUIlRTQlQjglQkIlRTclQUIlOEIlRTUlQUUlQUElRTUlODglQjYlRTclOUElODQlRTglOEIlQjElRTUlOUIlQkQrJUU0JUI4JTk2JUU3JTk1JThDJUU4JUJGJTkxJUU0JUJCJUEzJUU1JThGJUIyKyVFNSU4RSU4NiVFNSU4RiVCMislRTglQkYlOTElRTQlQkIlQTMlRTYlOTQlQkYlRTYlQjIlQkIlRTQlQjglOEUlRTUlQjclQTUlRTQlQjglOUElRTUlOEMlOTYrJUU4JUFFJUIyJUU4JUE3JUEzDQoyLOesrOS4gOeroCDov5Hku6PmlL/msrvkuI7lt6XkuJrljJYg4oC6IOesrOS6jOiKgiDnvo7lm73ni6znq4vmiJjkuoks5bey5Yy56YWNLOS4reWtpuWOhuWPsueyvuWTgeivvu+8mue+juWbveeLrOeri+aImOS6iSxodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxUVo0eTE1N3RLLyzop4bpopHmoIfpopjlr7nlupTmnKzoioLkuLvpopjvvIznp5Hnm67miJbkuIrnuqfnq6DoioLkuZ/nm7jnrKbjgIIsLCwsLCwsaHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPSVFNyVCRSU4RSVFNSU5QiVCRCVFNyU4QiVBQyVFNyVBQiU4QiVFNiU4OCU5OCVFNCVCQSU4OSslRTQlQjglOTYlRTclOTUlOEMlRTglQkYlOTElRTQlQkIlQTMlRTUlOEYlQjIrJUU1JThFJTg2JUU1JThGJUIyKyVFOCVCRiU5MSVFNCVCQiVBMyVFNiU5NCVCRiVFNiVCMiVCQiVFNCVCOCU4RSVFNSVCNyVBNSVFNCVCOCU5QSVFNSU4QyU5NislRTglQUUlQjIlRTglQTclQTMNCjMs56ys5LiA56ugIOi/keS7o+aUv+ayu+S4juW3peS4muWMliDigLog56ys5LiJ6IqCIOazleWbveWkp+mdqeWRvSzlt7LljLnphY0s5Lmd5LiK5Y6G5Y+y77ya5rOV5Zu95aSn6Z2p5ZG95ZKM5ou/56C05LuR5bid5Zu9LGh0dHBzOi8vd3d3LmJpbGliaWxpLmNvbS92aWRlby9CVjE3UnlxQmpFV2kvLOinhumikeagh+mimOWvueW6lOacrOiKguS4u+mimO+8jOenkeebruaIluS4iue6p+eroOiKguS5n+ebuOespuOAgizliJ3kuK3ljoblj7LvvJrms5Xlm73lpKfpnanlkb3lkozmi7/noLTku5HluJ3lm70saHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMWI5NFVlTEV5MS8s6KeG6aKR5qCH6aKY5a+55bqU5pys6IqC5Li76aKY77yM56eR55uu5oiW5LiK57qn56ug6IqC5Lmf55u456ym44CCLCwsLGh0dHBzOi8vc2VhcmNoLmJpbGliaWxpLmNvbS9hbGw/a2V5d29yZD0lRTYlQjMlOTUlRTUlOUIlQkQlRTUlQTQlQTclRTklOUQlQTklRTUlOTElQkQrJUU0JUI4JTk2JUU3JTk1JThDJUU4JUJGJTkxJUU0JUJCJUEzJUU1JThGJUIyKyVFNSU4RSU4NiVFNSU4RiVCMislRTglQkYlOTElRTQlQkIlQTMlRTYlOTQlQkYlRTYlQjIlQkIlRTQlQjglOEUlRTUlQjclQTUlRTQlQjglOUElRTUlOEMlOTYrJUU4JUFFJUIyJUU4JUE3JUEzDQo0LOesrOS4gOeroCDov5Hku6PmlL/msrvkuI7lt6XkuJrljJYg4oC6IOesrOWbm+iKgiDnrKzkuIDmrKHlt6XkuJrpnanlkb0s5bey5Yy56YWNLOS5neS4iuWOhuWPsu+8muesrDHmrKHlt6XkuJrpnanlkb0saHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMXBVMXNCZEVIZy8s6KeG6aKR5qCH6aKY5a+55bqU5pys6IqC5Li76aKY77yM56eR55uu5oiW5LiK57qn56ug6IqC5Lmf55u456ym44CCLOS5neS4iuWOhuWPsuWFrOW8gOivvuOAiuesrOS4gOasoeW3peS4mumdqeWRveOAiyxodHRwczovL3d3dy5iaWxpYmlsaS5jb20vdmlkZW8vQlYxaHMyc0JLRXhjLyzop4bpopHmoIfpopjlr7nlupTmnKzoioLkuLvpopjvvIznp5Hnm67miJbkuIrnuqfnq6DoioLkuZ/nm7jnrKbjgIIsLCwsaHR0cHM6Ly9zZWFyY2guYmlsaWJpbGkuY29tL2FsbD9rZXl3b3JkPSVFNyVBQyVBQyVFNCVCOCU4MCVFNiVBQyVBMSVFNSVCNyVBNSVFNCVCOCU5QSVFOSU5RCVBOSVFNSU5MSVCRCslRTQlQjglOTYlRTclOTUlOEMlRTglQkYlOTElRTQlQkIlQTMlRTUlOEYlQjIrJUU1JThFJTg2JUU1JThGJUIyKyVFOCVCRiU5MSVFNCVCQiVBMyVFNiU5NCVCRiVFNiVCMiVCQiVFNCVCOCU4RSVFNSVCNyVBNSVFNCVCOCU5QSVFNSU4QyU5NislRTglQUUlQjIlRTglQTclQTMNCjUs56ys5LiA56ugIOi/keS7o+aUv+ayu+S4juW3peS4muWMliDigLog56ys5LqU6IqCIOesrOS6jOasoeW3peS4mumdqeWRvSzlt7LljLnphY0s5Lmd5LiL5Y6G5Y+y77ya56ysNeivviDnrKzkuozmrKHlt6XkuJrpnanlkb0saHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMU1FQ2VCbkV6ay8s6KeG6aKR5qCH6aKY5a+55bqU5pys6IqC5Li76aKY77yM56eR55uu5oiW5LiK57qn56ug6IqC5Lmf55u456ym44CCLCwsLCwsLGh0dHBzOi8vc2VhcmNoLmJpbGliaWxpLmNvbS9hbGw/a2V5d29yZD0lRTclQUMlQUMlRTQlQkElOEMlRTYlQUMlQTElRTUlQjclQTUlRTQlQjglOUElRTklOUQlQTklRTUlOTElQkQrJUU0JUI4JTk2JUU3JTk1JThDJUU4JUJGJTkxJUU0JUJCJUEzJUU1JThGJUIyKyVFNSU4RSU4NiVFNSU4RiVCMislRTglQkYlOTElRTQlQkIlQTMlRTYlOTQlQkYlRTYlQjIlQkIlRTQlQjglOEUlRTUlQjclQTUlRTQlQjglOUElRTUlOEMlOTYrJUU4JUFFJUIyJUU4JUE3JUEzDQo="
+  }
+]
