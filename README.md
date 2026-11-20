@@ -1,6 +1,33 @@
 # 教材配课助手
 
-把教材目录变成一张按小节排列的 B 站网课计划表。上传带书签或可复制文字的 PDF，或直接粘贴目录。确认后，每小节会显示首选视频、最多两个备选和推荐理由。能确认分集时会链接到具体分集。未找到可靠资源的小节仍会保留，并提供 B 站搜索入口。
+**高数学到哪一节，就跳到 B 站对应的那一集。** 上传 PDF 或粘贴教材目录，生成逐节对应、可导出 CSV 的网课计划。
+
+[在线体验](https://yanzirui666.github.io/textbook-course-matcher/) · [下载高数示例计划 CSV](https://yanzirui666.github.io/textbook-course-matcher/functions-and-limits.csv) · [提议适配一本教材](https://github.com/yanzirui666/textbook-course-matcher/issues/new?title=%E6%95%99%E6%9D%90%E9%85%8D%E8%AF%BE%E5%8F%8D%E9%A6%88)
+
+[![20 秒演示，从教材目录生成计划，再跳转到 B 站分集](docs/demo.gif)](https://yanzirui666.github.io/textbook-course-matcher/)
+
+## 同济七版《高等数学》第一章 · 函数与极限
+
+按教材的 10 个小节排列。标有集数的链接会直接打开对应分集，在线体验还提供数据结构和世界近代史的样例。
+
+<!-- showcase:table:start -->
+
+| 教材小节 | 对应网课 |
+| --- | --- |
+| 1.1 映射与函数 | [第 1 集 · 1.1 映射](https://www.bilibili.com/video/BV1Eb411u7Fw/?p=1) |
+| 1.2 数列的极限 | [第 7 集 · 1.2 数列极限的定义](https://www.bilibili.com/video/BV1Eb411u7Fw/?p=7) |
+| 1.3 函数的极限 | [第 10 集 · 1.3 函数极限](https://www.bilibili.com/video/BV1Eb411u7Fw/?p=10) |
+| 1.4 无穷小与无穷大 | [第 11 集 · 1.4 无穷小与无穷大](https://www.bilibili.com/video/BV1Eb411u7Fw/?p=11) |
+| 1.5 极限运算法则 | [第 12 集 · 1.5 极限运算准则（修后）](https://www.bilibili.com/video/BV1Eb411u7Fw/?p=12) |
+| 1.6 极限存在准则 两个重要极限 | [第 13 集 · 1.6 极限存在准则 两个重要极限](https://www.bilibili.com/video/BV1Eb411u7Fw/?p=13) |
+| 1.7 无穷小的比较 | [第 14 集 · 1.7 无穷小的比较](https://www.bilibili.com/video/BV1Eb411u7Fw/?p=14) |
+| 1.8 函数的连续性与间断点 | [第 15 集 · 1.8 函数的连续性与间断点](https://www.bilibili.com/video/BV1Eb411u7Fw/?p=15) |
+| 1.9 连续函数的运算与初等函数的连续性 | [高数入门 · 连续函数运算与初等函数连续性](https://www.bilibili.com/video/BV1kg411h7Lf/) |
+| 1.10 闭区间上连续函数的性质 | [第 17 集 · 1.10 闭区间连续函数的性质](https://www.bilibili.com/video/BV1Eb411u7Fw/?p=17) |
+
+<!-- showcase:table:end -->
+
+目录顺序参考[高等教育出版社的第七版配套辅导书](https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=59cf765fba9eb884cf8230a0)，分集位置以 [B 站选集](https://www.bilibili.com/list/ml2772390947?bvid=BV1Eb411u7Fw&oid=48624233)为准。
 
 ## 本地运行
 
@@ -10,7 +37,7 @@
 uv run --locked --no-dev streamlit run app.py
 ```
 
-浏览器会打开本地网页，默认地址是 `http://127.0.0.1:8501`。选择「试用示例」，可以直接用高等数学、数据结构或历史各五个小节生成计划。选择「粘贴目录」或「上传 PDF」即可换成自己的材料。
+浏览器会打开本地网页，默认地址是 `http://127.0.0.1:8501`。选择「试用示例」，可以直接用高等数学、数据结构或历史的默认目录生成计划。选择「粘贴目录」或「上传 PDF」即可换成自己的材料。
 
 ### 整理自己的目录
 
@@ -55,6 +82,6 @@ uv run --locked --no-dev streamlit run app.py
 uv run --locked pytest -q
 ```
 
-`app.py` 提供网页入口，`course_matcher/` 包含目录解析、检索、匹配和 CSV 导出。内置索引位于 `course_matcher/data/catalog.json`。贡献视频时，请提供原视频页链接，核对主题、对应的分集编号及分集标题。示例中的宋浩老师高数分集可在 [B 站选集列表](https://www.bilibili.com/list/ml2772390947?bvid=BV1Eb411u7Fw&oid=48624233) 和 [分集目录](https://www.bilibili.com/opus/855060162516353042) 中核对。
+`app.py` 提供网页入口，`course_matcher/` 包含目录解析、检索、匹配和 CSV 导出。内置索引位于 `course_matcher/data/catalog.json`。贡献视频时，请提供原视频页链接，核对主题、对应的分集编号及分集标题。请注明教材、版次、章和小节。更新索引后，运行 `uv run --locked python scripts/build_showcase.py` 同步示例表和体验页数据。
 
 项目代码采用 [MIT 许可证](LICENSE)。课程链接指向 B 站原页面，视频内容的权利归相应权利人。
