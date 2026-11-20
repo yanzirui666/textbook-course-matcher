@@ -1,0 +1,255 @@
+{
+  "examples": [
+    {
+      "name": "高等数学 · 函数与极限",
+      "book": "高等数学（同济第七版）",
+      "subject": "高等数学",
+      "outline": [
+        "第一章 函数与极限",
+        "  1.2 数列的极限",
+        "  1.3 函数的极限",
+        "  1.5 极限运算法则",
+        "  1.7 无穷小的比较",
+        "  1.8 函数的连续性"
+      ]
+    },
+    {
+      "name": "数据结构 · 二叉树",
+      "book": "数据结构",
+      "subject": "数据结构",
+      "outline": [
+        "第六章 树与二叉树",
+        "  6.1 二叉树的定义",
+        "  6.2 二叉树的前序遍历",
+        "  6.3 二叉树的中序遍历",
+        "  6.4 二叉树的后序遍历",
+        "  6.5 二叉树的层序遍历"
+      ]
+    },
+    {
+      "name": "历史 · 世界近代史",
+      "book": "世界近代史",
+      "subject": "历史",
+      "outline": [
+        "第一章 近代政治与工业化",
+        "  第一节 君主立宪制的英国",
+        "  第二节 美国独立战争",
+        "  第三节 法国大革命",
+        "  第四节 第一次工业革命",
+        "  第五节 第二次工业革命"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/",
+      "title": "《高等数学》同济版 2024年更新｜宋浩老师",
+      "subject": "高等数学",
+      "series": true,
+      "part_number": 7,
+      "part_title": "1.2 数列极限的定义",
+      "aliases": [
+        "数列的极限"
+      ],
+      "description": "介绍数列极限定义。"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/",
+      "title": "《高等数学》同济版 2024年更新｜宋浩老师",
+      "subject": "高等数学",
+      "series": true,
+      "part_number": 10,
+      "part_title": "1.3 函数极限",
+      "aliases": [
+        "函数的极限",
+        "函数极限的定义"
+      ],
+      "description": "介绍函数在一点和无穷远处的极限。"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/",
+      "title": "《高等数学》同济版 2024年更新｜宋浩老师",
+      "subject": "高等数学",
+      "series": true,
+      "part_number": 12,
+      "part_title": "1.5 极限运算准则（修后）",
+      "aliases": [
+        "极限运算法则",
+        "极限的运算法则"
+      ],
+      "description": "介绍极限的四则运算。"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/",
+      "title": "《高等数学》同济版 2024年更新｜宋浩老师",
+      "subject": "高等数学",
+      "series": true,
+      "part_number": 14,
+      "part_title": "1.7 无穷小的比较",
+      "aliases": [
+        "无穷小量的比较"
+      ],
+      "description": "介绍无穷小的阶及比较方法。"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1Eb411u7Fw/",
+      "title": "《高等数学》同济版 2024年更新｜宋浩老师",
+      "subject": "高等数学",
+      "series": true,
+      "part_number": 15,
+      "part_title": "1.8 函数的连续性与间断点",
+      "aliases": [
+        "函数的连续性"
+      ],
+      "description": "讲解函数连续性的判定以及间断点。"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1X44y1f7Ed/",
+      "title": "高数第一课：数列极限的定义",
+      "subject": "高等数学",
+      "description": "以数列极限的定义为主题。",
+      "aliases": [
+        "数列的极限"
+      ]
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1LN411n7ZN/",
+      "title": "高等数学精讲：函数的极限",
+      "subject": "高等数学",
+      "description": "在数列极限的基础上讲解函数极限。",
+      "aliases": []
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1vn62BdEbK/",
+      "title": "函数极限的四则运算法则与证明",
+      "subject": "高等数学",
+      "description": "讲解函数极限的四则运算。",
+      "aliases": [
+        "极限运算法则"
+      ]
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1o14y177cc/",
+      "title": "无穷小的比较练习",
+      "subject": "高等数学",
+      "description": "讲解无穷小比较的练习题。",
+      "aliases": []
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1oZ4y1G7rd/",
+      "title": "轻松学习高等数学：函数的连续性",
+      "subject": "高等数学",
+      "description": "涵盖连续性的判定和相关例题。",
+      "aliases": []
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1Hy4y1t7ij/",
+      "title": "关于二叉树，你该了解这些！",
+      "subject": "数据结构",
+      "description": "涵盖二叉树节点的定义、类型、存储方式和基本遍历顺序。",
+      "aliases": [
+        "二叉树的定义"
+      ]
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1CQ4y1e7av/",
+      "title": "二叉树的先、中、后序遍历（递归版）",
+      "subject": "数据结构",
+      "description": "通过图解与代码讲解三种递归遍历顺序。",
+      "aliases": [
+        "二叉树的前序遍历",
+        "二叉树的中序遍历",
+        "二叉树的后序遍历"
+      ]
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV11P4y1L7in/",
+      "title": "手画图解：二叉树的中序遍历",
+      "subject": "数据结构",
+      "description": "以中序遍历为主题，配有手绘示例。",
+      "aliases": []
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV18i4y1Z7am/",
+      "title": "二叉树遍历：后序（非递归）",
+      "subject": "数据结构",
+      "description": "用图解和代码演示二叉树的非递归后序遍历。",
+      "aliases": [
+        "二叉树的后序遍历"
+      ]
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1GY4y1u7b2/",
+      "title": "讲透二叉树的层序遍历",
+      "subject": "数据结构",
+      "description": "从广度优先搜索讲解二叉树的层序遍历。",
+      "aliases": []
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1hw4m1q7DF/",
+      "title": "二叉树遍历秒解：前序遍历、中序遍历、后序遍历",
+      "subject": "数据结构",
+      "description": "讲解每种遍历的访问次序。",
+      "aliases": [
+        "二叉树的前序遍历",
+        "二叉树的中序遍历",
+        "二叉树的后序遍历"
+      ]
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1ew411k75L/",
+      "title": "第17课 君主立宪制的英国",
+      "subject": "历史",
+      "description": "面向初中生的历史微课。",
+      "aliases": [
+        "英国资产阶级革命"
+      ]
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1QZ4y157tK/",
+      "title": "中学历史精品课：美国独立战争",
+      "subject": "历史",
+      "description": "以美国独立战争为主题的中学历史课程。",
+      "aliases": [
+        "美国的独立"
+      ]
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV17RyqBjEWi/",
+      "title": "九上历史：法国大革命和拿破仑帝国",
+      "subject": "历史",
+      "description": "与九年级世界历史课程对应。",
+      "aliases": []
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1b94UeLEy1/",
+      "title": "初中历史：法国大革命和拿破仑帝国",
+      "subject": "历史",
+      "description": "九年级上册历史单课。",
+      "aliases": []
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1pU1sBdEHg/",
+      "title": "九上历史：第1次工业革命",
+      "subject": "历史",
+      "description": "九年级上册工业革命专题。",
+      "aliases": [
+        "第一次工业革命"
+      ]
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1hs2sBKExc/",
+      "title": "九上历史公开课《第一次工业革命》",
+      "subject": "历史",
+      "description": "九年级历史课堂实录。",
+      "aliases": []
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1MECeBnEzk/",
+      "title": "九下历史：第5课 第二次工业革命",
+      "subject": "历史",
+      "description": "九年级下册工业革命单课。",
+      "aliases": []
+    }
+  ]
+}
